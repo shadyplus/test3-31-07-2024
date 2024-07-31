@@ -1,0 +1,210 @@
+body {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #222;
+}
+
+#container {
+  border-radius: 0;
+  padding: 0;
+  width: 90%;
+  min-width: 300px;
+  max-width: 700px;
+  position: relative;
+  margin: 20px auto;
+  font-size: 0;
+}
+
+#top {
+  width: 100%;
+  background-color: #cc0000;
+  font-size: 23px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #666;
+  background-image: -moz-linear-gradient(90deg, #c74c8a 0%, #931d58 100%);
+  background-image: -webkit-linear-gradient(90deg, #c74c8a 0%, #931d58 100%);
+}
+
+#q00, #q0, #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q9a, #q9b, #q9c, #q9d {
+  border-radius: 0;
+  overflow: hidden;
+  background-color: #ffd1ff;
+  border-top: 1px solid #666;
+  width: 100%;
+  min-width: 300px;
+  max-width: 700px;
+  display: none;
+  line-height: 28px;
+  font-size: 22px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 0 4px #444;
+  margin: 0 auto
+}
+
+.btnyes {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  background-image: -moz-linear-gradient(90deg, rgb(0, 153, 0) 0%, rgb(0, 204, 0) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(0, 153, 0) 0%, rgb(0, 204, 0) 100%);
+  background-color: #37aed3;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 21px 0;
+  text-decoration: none;
+  text-shadow: 0 -1px #666;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+}
+
+.btnno {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  background-color: #ff3311;
+  background-image: -moz-linear-gradient(90deg, rgb(153, 0, 0) 0%, rgb(204, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(153, 0, 0) 0%, rgb(204, 0, 0) 100%);
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 21px 0;
+  text-decoration: none;
+  text-shadow: 0 -1px #666;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+}
+
+.btnnext {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+  width: 70%;
+  background-image: -moz-linear-gradient(90deg, rgb(213 17 0) 0%, rgb(255 0 0) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(213 17 0) 0%, rgb(255 0 0) 100%);
+  background-color: #37aed3;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 25px 0;
+  text-decoration: none;
+  text-shadow: 0 1px #ffe500;
+  outline: none;
+  border: none;
+}
+
+#intro-image {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#box {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#box2 {
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.h1w {
+  font-size: 35px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase
+}
+
+.h1 {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase
+}
+
+.h2 {
+  color: #cc0000;
+}
+
+.h10 {
+  font-size: 17px;
+  color: #777;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.circle1 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background: #666;
+  border-radius: 10000px;
+  padding: 6px 12px;
+}
+
+.circle2 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background: #ddd;
+  border-radius: 10000px;
+  padding: 6px 12px;
+}
+
+@media screen and (max-width: 500px) {
+  #q00, #q0, #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q9a, #q9b, #q9c, #q9d {
+
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  #container {
+    margin: 15px auto;
+  }
+
+  .h1w {
+    font-size: 24px;
+  }
+
+  .h1 {
+    font-size: 17px;
+  }
+
+  #top {
+    font-size: 19px;
+  }
+
+  .btnyes {
+    font-size: 24px;
+  }
+
+  .btnno {
+    font-size: 24px;
+  }
+
+  .btnnext {
+    font-size: 30px;
+    width: 90%;
+  }
+
+}
+
+
